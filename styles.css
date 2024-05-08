@@ -124,6 +124,7 @@ transition: all 0.3s ease;
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
+        background: #131313;
     }
 
     .navbar__menu.active {
@@ -164,6 +165,23 @@ transition: all 0.3s ease;
         top: 20%;
         right: 5%;
         transform: translate(5%, 20%);
-    
+    }
+
+    .navbar__btn {
+        padding-bottom: 2rem;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
     }
 }
