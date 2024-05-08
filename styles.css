@@ -76,7 +76,7 @@ padding: o 1rem;
 width: 100%;
 }
 
-.button (
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,10 +89,15 @@ width: 100%;
     border-radius: 4px;
     background: #f77062;
     color: #fff; 
-)
+}
 
 
 .button:hover {
     background: #4837ff;
     transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+color: #f77062;
+transition: all 0.3s ease;
 }
